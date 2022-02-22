@@ -8,12 +8,8 @@ body{
 }
 .hero{
     width: 100%;
-    height: 500px;
-    background-image: url("../img/chef.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
+    background-color: rgba(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +20,6 @@ header h1{
     padding: 10px;
     color: #ffffff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
     font-size: 50px;
 }
 
@@ -38,7 +33,8 @@ header h1{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -51,10 +47,9 @@ header h1{
 ul li a{
     text-decoration: none;
     color: #fff;
-    display: inline;
 }
-ul li figure{
-    display: inline;
+ul li a figure{
+    margin: 0;
 }
 ul li figcaption{
     width: 350px;

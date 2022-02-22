@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    color: #ffffff;
+    padding: 5px 0px;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+img{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #c3c3c3;
+    margin: 10px;
+
+}
+section{
+    padding: 5px;
+    margin: 10px;
+}
+li{
+    padding: 5px;
+}
+p{
+    padding: 5px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
