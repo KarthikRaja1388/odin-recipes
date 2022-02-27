@@ -3,17 +3,27 @@
     padding: 0;
 }
 
-header{
+header div{
     width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .hero{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0);
     color: #ffffff;
     padding: 5px 0px;
+    background: #262626;
 }
 .wrapper{
     width: 80%;
